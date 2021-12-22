@@ -4,15 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Murat/Documents/GitHub/MatchAndEnjoyApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/Murat/Documents/GitHub/MatchAndEnjoyApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
-        <entry key="..\:/Users/Murat/Documents/GitHub/MatchAndEnjoyApp/app/src/main/res/layout/activity_select_hobbies.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Murat/Documents/GitHub/MatchAndEnjoyApp/app/src/main/res/layout/select_photo.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5703125" />
         <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable/activity_second_screen.xml" value="0.5703125" />
         <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable/rectangle.xml" value="0.3398148148148148" />
         <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_log_in.xml" value="0.2712765957446808" />
         <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
+        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_main_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_messages.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_register.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_second_screen.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_select_hobbies.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_select_photo.xml" value="0.5541666666666667" />
       </map>
     </option>
   </component>
