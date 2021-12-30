@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".MatchPreparing"
+            android:exported="true" />
+        <activity
+            android:name=".PreparingScreen"
+            android:exported="true" />
+        <activity
             android:name=".SelectHobbies"
             android:exported="false" />
         <activity

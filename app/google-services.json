@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525740124604",
+    "project_id": "matchappdatabase-34d8e",
+    "storage_bucket": "matchappdatabase-34d8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525740124604:android:24b057d664c7eabd5de3b9",
+        "android_client_info": {
+          "package_name": "com.example.macthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525740124604-lcsvp0g0f5lojrc26iv85s2cj6ol4o38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAE_YKmllRwtOdvtfllJW4HZB_ImSFDEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525740124604-lcsvp0g0f5lojrc26iv85s2cj6ol4o38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
