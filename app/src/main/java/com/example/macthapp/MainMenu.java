@@ -1,19 +1,22 @@
 package com.example.macthapp;
 
-import android.app.Activity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
@@ -24,13 +27,15 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
-public class MainMenu extends Activity {
+public class MainMenu extends AppCompatActivity {
     ImageView imageView;
     TextView name,age,hobbies,mail;
     EditText nameEdit,ageEdit,emailEdit,hobbiesEdit;
-    Button button1,button2,buttonSignOut;
+    ImageButton imageButtonMessage,imageButtonMatch,imageButtonLogOut;
     ArrayList<String> userIdArray=new ArrayList<String>();
+    private FirebaseAuth firebaseAuth;
 
 
     @Override
@@ -46,10 +51,10 @@ public class MainMenu extends Activity {
         ageEdit=findViewById(R.id.ageEdit);
         emailEdit=findViewById(R.id.emailEdit);
         hobbiesEdit=findViewById(R.id.hobbiesEdit);
+        imageButtonMessage=findViewById(R.id.button1);
+        imageButtonMatch=findViewById(R.id.button2);
+        imageButtonLogOut=findViewById(R.id.buttonSignOut);
 
-        button1=findViewById(R.id.button1);
-        button2=findViewById(R.id.button2);
-        buttonSignOut=findViewById(R.id.buttonSignOut);
 
 
         FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
@@ -78,8 +83,8 @@ public class MainMenu extends Activity {
                     Map<String, Object> map = document.getData();
                     for (Map.Entry<String, Object> entry : map.entrySet()) {
                         if (entry.getKey().equals("Hobbies")) {
-                            Log.d("TAG", entry.getValue().toString());
-                            hobbies.setText(entry.getValue().toString());
+                          Log.d("TAG", entry.getValue().toString());
+                          hobbies.setText(entry.getValue().toString());
 
                         }
                     }
@@ -91,12 +96,14 @@ public class MainMenu extends Activity {
             }
         });
     }
-    /* public String getRandomUserId() {
-          Random random=new Random();
-          int index = random.nextInt(userIdArray.size()+1);
-          String randomUserId=userIdArray.get(index);
-          return randomUserId;
-      }*/
+  /* public String getRandomUserId() {
+        Random random=new Random();
+        int index = random.nextInt(userIdArray.size()+1);
+        String randomUserId=userIdArray.get(index);
+        return randomUserId;
+
+
+    }*/
     public void match(View view){
         Intent intent=new Intent(MainMenu.this,MatchPreparing.class);
         startActivity(intent);
@@ -106,5 +113,13 @@ public class MainMenu extends Activity {
     public void messages(View view){
         Intent intent=new Intent(MainMenu.this,Messages.class);
         startActivity(intent);
+    }
+
+    public void signOut(View view){
+
+        FirebaseAuth.getInstance().signOut();
+        Intent intent=new Intent(MainMenu.this,LogInActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

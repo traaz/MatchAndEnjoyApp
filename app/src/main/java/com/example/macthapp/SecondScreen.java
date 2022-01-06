@@ -1,12 +1,13 @@
 package com.example.macthapp;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SecondScreen extends Activity {
+public class SecondScreen extends AppCompatActivity {
     Button logInButton;
     Button signUpButton;
 
@@ -27,4 +28,3 @@ public class SecondScreen extends Activity {
 
     }
 }
-

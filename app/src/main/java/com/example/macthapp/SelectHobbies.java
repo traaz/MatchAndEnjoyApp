@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -20,7 +21,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class SelectHobbies extends AppCompatActivity {
-
     DocumentReference mRef;
     FirebaseFirestore mFireStore;
     FirebaseUser mUser;
@@ -314,19 +314,19 @@ public class SelectHobbies extends AppCompatActivity {
     }
 
     public void register(View view){
-        isSelected();
+       isSelected();
 
 
-        mData=new HashMap<>();
-        mData.put("Hobbies",hobbies);
-        mFireStore.collection("Users").document(mUser.getUid()).update(mData).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if(task.isSuccessful()){
-                    finish();
-                    startActivity(new Intent(SelectHobbies.this,PreparingScreen.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-                }
-            }
-        });
+           mData=new HashMap<>();
+           mData.put("Hobbies",hobbies);
+           mFireStore.collection("Users").document(mUser.getUid()).update(mData).addOnCompleteListener(new OnCompleteListener<Void>() {
+               @Override
+               public void onComplete(@NonNull Task<Void> task) {
+                   if(task.isSuccessful()){
+                       finish();
+                       startActivity(new Intent(SelectHobbies.this,PreparingScreen.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                   }
+               }
+           });
+       }
     }
-}

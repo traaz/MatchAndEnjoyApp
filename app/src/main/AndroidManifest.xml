@@ -2,28 +2,43 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.macthapp">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/match_icon"
-        android:label="MatchandEnjoy"
-        android:roundIcon="@mipmap/match_icon"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".MatchPreparing"
+            android:exported="true" />
         <activity
             android:name=".Match"
             android:exported="true" />
         <activity
-            android:name=".MatchPreparing"
+            android:name=".Messages"
+            android:exported="true" />
+        <activity
+            android:name=".MainMenu"
             android:exported="true" />
         <activity
             android:name=".PreparingScreen"
             android:exported="true" />
         <activity
             android:name=".SelectHobbies"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
+            android:exported="true" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SecondScreen"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

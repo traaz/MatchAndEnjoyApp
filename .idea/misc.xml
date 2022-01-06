@@ -3,37 +3,45 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Murat/Documents/GitHub/MatchAndEnjoyApp/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5703125" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable/activity_second_screen.xml" value="0.5703125" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable/background_left.xml" value="0.5703125" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable/background_right.xml" value="0.5703125" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/drawable/rectangle.xml" value="0.3398148148148148" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_log_in.xml" value="0.2712765957446808" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_main_menu.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_match.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_match_preparing.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_messages.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_preparing_screen.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_register.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_second_screen.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_select_hobbies.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/activity_select_photo.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/chat_item_left.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/kadri/Desktop/project/MatchAndEnjoyApp/app/src/main/res/layout/chat_item_right.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_log_in.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_main.xml" value="0.11231884057971014" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_main_menu.xml" value="0.11231884057971014" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_match.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_match2.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_match_preparing.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_match_preparing_screen.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_messages.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_preparing_screen.xml" value="0.17" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_register.xml" value="0.11231884057971014" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_second_screen.xml" value="0.11367753623188406" />
-        <entry key="..\:/Users/trka8/AndroidStudioProjects/MatchAndEnjoyApp-main/app/src/main/res/layout/activity_select_hobbies.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable-anydpi/ic_match.xml" value="0.21875" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable-hdpi/rectangle.xml" value="0.346875" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable/background_left.xml" value="0.5703125" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable/background_right.xml" value="0.5703125" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21875" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable/rectangle.xml" value="0.346875" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/drawable/rectangle_for_bottom_button.xml" value="0.5703125" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_match.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_match_preparing.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_messages.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_preparing_screen.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_register.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_second_screen.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_select_hobbies.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/activity_select_photo.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/chat_item_left.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/chat_item_right.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/layout/toolbar.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/menu/bottom_nav_view.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/menu/chat_menu.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/kadri/Desktop/MatchApp/MatchApp/app/src/main/res/menu/setting_menu.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/kadri/app/src/main/res/layout/activity_preparing_screen.xml" value="0.11231884057971014" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/kadri/app/src/main/res/layout/activity_select_photo.xml" value="0.11231884057971014" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/drawable-anydpi/ic_people.xml" value="0.2203125" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_log_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_match.xml" value="0.25" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_match_preparing.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_preparing_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_second_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/layout/activity_select_hobbies.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/menu/bottom_nav_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/trka8/AndroidStudioProjects/macthApp/app/src/main/res/menu/buttom_nav_view.xml" value="0.18" />
       </map>
     </option>
   </component>

@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -55,7 +56,7 @@ public class Match extends AppCompatActivity {
 
         FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
 
-
+    
 
         array.add("0CqJFgLb9zOlXCSHekLTTj203wD3");
         array.add("0XmL1euEv0N4CiPVsC7LeVz4OEC2");
@@ -67,6 +68,12 @@ public class Match extends AppCompatActivity {
         array.add("8oUauvi3oDZFYmZBmb2oh9awaly2");
         array.add("APTQPlmAuRN9xQ9Pwy8IR8AiHct2");
         array.add("GJbY9hJpPSgvuZNqe8599U9YAmy2");
+        array.add("yrsRapRZDTS9sYCmI8U2Ro9OCWf2");
+        array.add("uQECM87vrvhbCbWlQk9De928LVh1");
+        array.add("tdha0QKUCgMt9Ltreu2AC39r8LQ2");
+        array.add("rCRI78s8hBYAtTqAJo3sM8Pa9hc2");
+
+        array.add("kld1UlJV11QpWxqj934ISezRhWF2");
 
         String randomUserId=array.get(random.nextInt(array.size()));
 
